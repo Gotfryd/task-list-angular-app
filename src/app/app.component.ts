@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root-comp',
   imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
 })
 export class App {
   protected title = 'task-list-app';
